@@ -1,2 +1,2 @@
-FROM kardamz12/webapp
+FROM kardamz12/website
 ADD . /var/www/html
