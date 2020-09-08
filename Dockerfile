@@ -1,2 +1,4 @@
-FROM kardamz12/webapp
-ADD . /var/www/html
+FROM centos:latest
+MAINTAINER NewstarCorporation
+RUN yum -y install httpd
+ADD . /var/www/html/
